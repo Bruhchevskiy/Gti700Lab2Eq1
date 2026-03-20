@@ -1,0 +1,12 @@
+{
+  "name": "gti700-lab2",
+  "version": "1.0.0",
+  "description": "IoT MQTT lab - GTI700",
+  "scripts": {
+    "publisher": "node publisher/index.js",
+    "alert": "node alert-subscriber/index.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.0.0"
+  }
+}
